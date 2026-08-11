@@ -1,18 +1,154 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Project</title>
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Geist+Mono:wght@400&display=swap"
+            rel="stylesheet"
+        />
 
-<body>
-    start
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Project</title>
+    </head>
 
-    <script src="./assets/js/main.js"></script>
-</body>
+    <body>
+        <nav>
+            <button class="menu-btn" id="close-menu">
+                <span class="roll-up">Close</span>
+            </button>
 
+            <div class="nav-inner">
+                <a class="nav-link" href="#">
+                    <span class="roll-up">Work</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="roll-up">Studio</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="roll-up">Process</span>
+                </a>
+                <a class="nav-link" href="#">
+                    <span class="roll-up">Contact</span>
+                </a>
+            </div>
+
+            <p class="nav-meta mono">
+                Hello@vela-studio.com<br />Drawn in Lisbon
+            </p>
+        </nav>
+
+        <main>
+            <section class="content">
+                <header class="site-head">
+                    <div class="head-inner">
+                        <a class="wordmark" href="#">
+                            <span class="roll-up">Vela</span>
+                        </a>
+                        <button class="menu-btn" id="open-menu">
+                            <span class="roll-up">Menu</span>
+                        </button>
+                    </div>
+                </header>
+
+                <section class="wrap hero">
+                    <p class="eyebrow mono">Character design<br />2025</p>
+                    <h1>Big Heads</h1>
+                    <p class="hero-note mono">
+                        Forty character studies drawn over one winter. Round
+                        shapes, heavy outlines, one clear expression each.
+                    </p>
+                </section>
+
+                <section class="wrap">
+                    <figure class="media-wide">
+                        <img
+                            src="https://i.pinimg.com/1200x/4c/5c/eb/4c5ceb25f407b3a60a9550858caaf4fd.jpg"
+                            alt="Illustration of a small yellow dinosaur on a yellow background"
+                        />
+                    </figure>
+                </section>
+
+                <div class="spacer"></div>
+
+                <section class="wrap">
+                    <p class="lede">
+                        Vela is a character studio. We draw the ones that still
+                        read at thumbnail size — chunky silhouettes, a single
+                        strong expression, nothing spare.
+                    </p>
+                </section>
+
+                <div class="spacer"></div>
+
+                <section class="wrap contents">
+                    <h2>In this set</h2>
+                    <ul>
+                        <li>
+                            <span class="mono">01</span
+                            ><span class="mono">Warm-ups</span
+                            ><span class="mono">12 sheets</span>
+                        </li>
+                        <li>
+                            <span class="mono">02</span
+                            ><span class="mono">Silhouette tests</span
+                            ><span class="mono">Studies</span>
+                        </li>
+                        <li>
+                            <span class="mono">03</span
+                            ><span class="mono">Colour passes</span
+                            ><span class="mono">Finals</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="spacer"></div>
+
+                <section class="wrap">
+                    <div class="media-pair">
+                        <figure>
+                            <img
+                                loading="lazy"
+                                src="https://i.pinimg.com/1200x/e3/2a/80/e32a802f03a3ec320012a1a5fd2160a8.jpg"
+                                alt="Illustration of a stout caped superhero on a yellow background"
+                            />
+                        </figure>
+                        <figure>
+                            <img
+                                loading="lazy"
+                                src="https://i.pinimg.com/736x/42/91/77/42917794c910d9de1953f19541823a5c.jpg"
+                                alt="Illustration of a grinning meerkat character on orange"
+                            />
+                        </figure>
+                    </div>
+                </section>
+
+                <div class="spacer"></div>
+
+                <footer class="wrap site-foot">
+                    <p class="addr mono">
+                        Vela Studio<br />Forty studies, 2025
+                    </p>
+                    <p class="reach mono">
+                        <a href="#">
+                            <span class="roll-up"
+                                >Hello@vela-studio.com</span
+                            > </a
+                        ><br />
+                        Drawn in Lisbon
+                    </p>
+                </footer>
+            </section>
+        </main>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/CustomEase.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/SplitText.min.js"></script>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
